@@ -2,9 +2,7 @@
 .gitignore
 .env
 .env.*
-LICENSE
 hooks/
 examples/
 *.log
 .DS_Store
-.clawhubignore
