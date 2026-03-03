@@ -1,10 +1,9 @@
 ---
 name: humanos
 description: Require verifiable human approval before high-risk agent actions.
-version: 1.0.0
+version: 0.1.1
 homepage: https://github.com/Humanos-App/humanos-skill-openclaw
 user-invocable: true
-disable-model-invocation: false
 metadata:
   openclaw:
     requires:
@@ -20,22 +19,6 @@ metadata:
       - linux
     primaryEnv: VIA_API_KEY
     emoji: "shield"
-    homepage: https://github.com/Humanos-App/humanos-skill-openclaw
-  clawdbot:
-    requires:
-      env:
-        - VIA_API_KEY
-        - VIA_SIGNATURE_SECRET
-      bins:
-        - curl
-        - jq
-        - openssl
-    os:
-      - darwin
-      - linux
-    primaryEnv: VIA_API_KEY
-    emoji: "shield"
-    homepage: https://github.com/Humanos-App/humanos-skill-openclaw
 ---
 
 # Humanos - Programmable Human Authorization for Agent Actions
